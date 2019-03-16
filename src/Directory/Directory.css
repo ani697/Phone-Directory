@@ -1,0 +1,103 @@
+h1 ,p ,span{
+  padding: 0;
+  margin: 0;
+}
+
+.content{
+    margin: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns : repeat(3,1fr);
+}
+
+#head{
+  color: #f2f2f2;
+  background-color: black;
+  grid-column: 1/4;
+  padding: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: calc(10px + 2vmin);
+}
+#Button{
+  padding: 30px;
+  grid-column: 1/4;
+  display: grid;
+  /*background-color: yellow;*/
+}
+#Switch{
+  background-color: #3bbced;
+  grid-column: 1/2;
+  justify-self: start;
+  width:70px;
+  height:40px;
+ box-shadow:  1px 3px #888888;
+}
+#Switch:hover{
+  cursor: pointer;
+}
+#main{
+  grid-column: 1/4;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color:#4286f4;
+}
+
+#Anothermain{
+  padding: 10px;
+  grid-column: 1/4;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: #f4f441;
+}
+
+#name{
+  grid-column: 1/2;
+  align-self: center;
+
+}
+#phone{
+  grid-column: 2/3;
+  align-self: center;
+
+}
+#delete{
+  grid-column: 3/4;
+}
+#Myname{
+  grid-column: 1/2;
+}
+#Mynumber{
+  grid-column: 2/3;
+}
+
+#Remove{
+  grid-column:3/4;
+  align-self:center;
+}
+
+
+#MyRemove{
+  grid-column: 3/4;
+  align-self: center;
+}
+#Inner{
+  font-size: 15px;
+  background-color: #416df4;
+  color: #1a0000;
+}
+#Inner::after{
+  content: "\f2ed";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 2px;
+}
+#Inner:hover{
+cursor: pointer;
+}
+
+a{
+  padding: 0;
+  margin: 0;
+}
