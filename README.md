@@ -7,5 +7,5 @@ How to use the downloaded files :-
 Run "npm install" in the extracted folder
 Run "npm start" to view the project.
 
-OR to directly see its functioning click on the link:-
+OR to directly see its functioning click on the link:-<br/>
 https://numbertoremember.herokuapp.com/
