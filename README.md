@@ -7,5 +7,5 @@ How to use the downloaded files :-<br/>
 Run "npm install" in the extracted folder<br/>
 Run "npm start" to view the project.<br/>
 
-OR ,to directly see its functioning click on the link:-<br/>
+
 
